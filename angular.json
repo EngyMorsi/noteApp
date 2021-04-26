@@ -28,9 +28,17 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/assets1/js/jquery.particleground.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "noteApp"
+  "defaultProject": "noteApp",
+  "cli": {
+    "analytics": "5bb28128-ae7f-438e-ae6f-7618840bbb53"
+  }
 }
